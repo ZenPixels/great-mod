@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+# issueTrackerURL="https://github.com/zenpixels/GreatMod/issues"
+# displayURL="https://minecraft.curseforge.com/projects/great-mod/"
+# logoFile="logo.png"
+
+[[mods]] #mandatory
+    modId="greatmod"
+    version="${file.jarVersion}"
+    displayName="Great Mod"
+    credits="zenpixels"
+    authors="zenpixels"
+    description='''
+    Trying to make a mod!
+    '''
+[[dependencies.greatmod]] #optional
+    modId="forge"
+    mandatory=true
+    versionRange="[31.1.0,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.storagedrawers]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15,)"
+    ordering="NONE"
+    side="BOTH"
